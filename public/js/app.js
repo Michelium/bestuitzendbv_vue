@@ -15979,10 +15979,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/css/app.css":
-/*!*******************************!*\
-  !*** ./resources/css/app.css ***!
-  \*******************************/
+/***/ "./resources/css/app.scss":
+/*!********************************!*\
+  !*** ./resources/css/app.scss ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16028,14 +16028,14 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/css/app.css ***!
-  \***********************************************************/
+/*!************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/css/app.scss ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! D:\Code\Work\bestuitzendbv_vue\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Code\Work\bestuitzendbv_vue\resources\css\app.css */"./resources/css/app.css");
+module.exports = __webpack_require__(/*! D:\Code\Work\bestuitzendbv_vue\resources\css\app.scss */"./resources/css/app.scss");
 
 
 /***/ })
