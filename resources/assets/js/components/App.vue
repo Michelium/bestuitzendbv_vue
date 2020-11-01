@@ -1,15 +1,24 @@
 <template>
-    <div>
-        <h2>hello</h2>
-        <p>
-            <router-link :to="{ name: 'home' }">Home</router-link> |
-        </p>
-
-        <div class="container">
+    <main>
+        <div class="container-fluid p-0">
+            <AppHeader/>
+            <p>
+                <router-link :to="{ name: 'home' }">Home</router-link> |
+            </p>
             <router-view></router-view>
         </div>
-    </div>
+        <AppFooter/>
+    </main>
 </template>
 <script>
-    export default {}
+    import AppHeader from './AppHeader'
+    import AppFooter from './AppFooter'
+
+    export default {
+        name: 'App',
+        components: {
+            AppHeader,
+            AppFooter,
+        }
+    }
 </script>
