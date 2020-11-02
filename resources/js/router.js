@@ -4,6 +4,7 @@ Vue.use(VueRouter);
 
 import Home from '../assets/js/pages/Home';
 import About from '../assets/js/pages/About';
+import Contact from '../assets/js/pages/Contact';
 
 const routes = [
     {
@@ -15,6 +16,11 @@ const routes = [
         path: '/overons',
         name: 'about',
         component: About,
+    },
+    {
+        path: '/contact',
+        name: 'contact',
+        component: Contact,
     },
 ];
 
