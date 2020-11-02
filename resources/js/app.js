@@ -22,3 +22,8 @@ const app = new Vue({
     components: { App },
     router,
 });
+
+require('bootstrap');
+
+import $ from 'jquery';
+window.$ = window.jQuery = $;
