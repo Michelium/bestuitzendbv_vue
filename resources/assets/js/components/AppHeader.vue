@@ -32,7 +32,6 @@
 
     .custom-navbar-light {
         background: transparent !important;
-        position: absolute;
         top: 20px;
         left: 0;
         right: 0;
@@ -46,7 +45,6 @@
 
         .custom-navbar-light {
             background: white !important;
-            position: relative;
             top: 0;
         }
 
