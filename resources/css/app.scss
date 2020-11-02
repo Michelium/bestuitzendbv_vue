@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma+2&display=swap');
+
 @import "bootstrap.litera.css";
+
+$primary: #B43C39;
+
+*:not(.fa):not(.fab) {
+    font-family: 'Baloo Tamma 2', cursive!important;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 300px!important;
+}
+@media (max-width: 767px) and (min-width: 540px) {
+    body {
+        margin-bottom: 366px!important;
+    }
+}
+@media (max-width: 539px) {
+    body {
+        margin-bottom: 442px!important;
+    }
+}

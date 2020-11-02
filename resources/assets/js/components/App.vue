@@ -2,9 +2,6 @@
     <main>
         <div class="container-fluid p-0">
             <AppHeader/>
-            <p>
-                <router-link :to="{ name: 'home' }">Home</router-link> |
-            </p>
             <router-view></router-view>
         </div>
         <AppFooter/>
