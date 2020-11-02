@@ -19268,7 +19268,11 @@ var render = function() {
                   _c(
                     "a",
                     { staticClass: "navbar-brand", attrs: { href: "" } },
-                    [_c("img", { attrs: { src: "", alt: "LOGO" } })]
+                    [
+                      _c("img", {
+                        attrs: { src: "images/logo.jpg", alt: "LOGO" }
+                      })
+                    ]
                   )
                 ])
               ],

@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row px-3 pt-3 pt-lg-0">
                     <div class="col-8">
-                        <router-link :to="{ name: 'home' }"><a class="navbar-brand" href=""><img src="" alt="LOGO"></a></router-link>
+                        <router-link :to="{ name: 'home' }"><a class="navbar-brand" href=""><img :src="'images/logo.jpg'" alt="LOGO"></a></router-link>
                     </div>
                     <div class="col-4">
                         <button class="navbar-toggler collapsed float-right mt-2" type="button" data-toggle="collapse" data-target="#custom-nav" aria-controls="custom-nav" aria-expanded="false" aria-label="Toggle navigation">
