@@ -4,7 +4,7 @@ Vue.use(VueRouter);
 
 import Home from '../assets/js/pages/Home';
 import About from '../assets/js/pages/About';
-import Contact from '../assets/js/pages/Contact';
+import Contact from '../assets/js/pages/contact/index';
 
 const routes = [
     {

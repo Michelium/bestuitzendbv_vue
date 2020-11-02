@@ -6,10 +6,6 @@
             </div>
         </div>
 
-<!--        <div class="alert alert-{{ label }} alert-dismissible fade show" role="alert">-->
-<!--            <p>{{ message }}</p>-->
-<!--        </div>-->
-
         <div class="row mx-0 mb-5" id="first">
             <div class="col-12 col-md-8 mx-auto">
                 <div class="card p-2">
@@ -42,35 +38,22 @@
                 <a href="">Lorem ipsum</a>
             </div>
             <div class="col-12 col-lg-4 mr-auto mt-3 mt-lg-0 mb-5">
-<!--                {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}-->
-<!--                <div class="row">-->
-<!--                    <div class="col-12 col-md-6">-->
-<!--                        {{ form_row(form.name) }}-->
-<!--                    </div>-->
-<!--                    <div class="col-12 col-md-6">-->
-<!--                        {{ form_row(form.company_name) }}-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-12 col-md-6">-->
-<!--                        {{ form_row(form.email) }}-->
-<!--                    </div>-->
-<!--                    <div class="col-12 col-md-6">-->
-<!--                        {{ form_row(form.phone) }}-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-12">-->
-<!--                        <span>Reageert u op een vacature? Vul hieronder in op welke functie u wilt reageren:</span>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                {{ form_widget(form) }}-->
-<!--                <button type="submit" class="btn btn-primary">Verstuur</button>-->
-<!--                {{ form_end(form) }}-->
+                <ContactForm/>
             </div>
         </div>
     </section>
 </template>
+
+<script>
+    import ContactForm from './ContactForm'
+
+    export default {
+        name: 'Contact',
+        components: {
+            ContactForm,
+        }
+    }
+</script>
 
 <style scoped>
 #header {

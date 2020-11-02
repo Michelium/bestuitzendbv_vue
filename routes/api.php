@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::namespace('App\Http\Controllers\Api')->group(function () {
+    Route::post('/contact/submit', 'ContactFormController@submit');
+});
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
