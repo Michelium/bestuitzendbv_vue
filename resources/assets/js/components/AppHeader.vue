@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row px-3 pt-3 pt-lg-0">
                 <div class="col-8">
-                    <router-link :to="{ name: 'home' }"><a class="navbar-brand" href=""><img :src="'images/logo.jpg'" alt="LOGO"></a></router-link>
+                    <router-link :to="{ name: 'home' }"><a class="navbar-brand"><img :src="'images/logo.jpg'" alt="LOGO"></a></router-link>
                 </div>
                 <div class="col-4">
                     <button class="navbar-toggler collapsed float-right mt-2" type="button" data-toggle="collapse" data-target="#custom-nav" aria-controls="custom-nav"
@@ -14,10 +14,10 @@
             </div>
             <div class="navbar-collapse collapse mt-3 mt-lg-0" id="custom-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Over&nbsp;ons</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Vacatures</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><router-link :to="{ name: 'home' }" class="nav-link">Home</router-link></li>
+                    <li class="nav-item"><router-link :to="{ name: 'about' }" class="nav-link">Over&nbsp;ons</router-link></li>
+                    <li class="nav-item"><router-link :to="{ name: 'joboffers' }" class="nav-link">Vacatures</router-link></li>
+                    <li class="nav-item"><router-link :to="{ name: 'contact' }" class="nav-link">Contact</router-link></li>
                 </ul>
             </div>
         </div>
