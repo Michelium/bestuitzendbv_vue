@@ -4,17 +4,17 @@ Er is zojuist een inzending gedaan via het contactformulier op de website! <br><
 
 <h5>Contactgegevens:</h5>
 Naam: <b>{{ $details['name'] }}</b> <br>
-{% if data['company_name'] is not empty %}
+@if ($details['company_name'])
 Bedrijfsnaam: <b>{{ $details['company_name'] }}</b> <br>
-{% endif %}
+@endif
 Email: <b>{{ $details['email'] }}</b> <br>
-{% if data['phone'] is not empty %}
+@if ($details['phone'])
 Telefoonnummer: <b>{{ $details['phone'] }}</b> <br>
-{% endif %}
+@endif
 <br>
-{% if data['function'] != 'Geen' %}
+@if ($details['function'] != 'Geen')
 <b>Heeft gereageerd op de functie: {{ $details['function'] }}</b> <br><br><br>
-{% endif %}
+@endif
 Bericht: <br><br>
 
 {{ $details['message'] }}

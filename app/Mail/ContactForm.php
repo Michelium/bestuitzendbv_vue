@@ -10,27 +10,22 @@ use Illuminate\Queue\SerializesModels;
 class ContactForm extends Mailable {
     use Queueable, SerializesModels;
 
-    public $details;
+    public $data;
 
-    /**
-     * Create a new message instance.
-     *
-     * @return void
-     */
-    public function __construct($details) {
-        $this->details = $details;
+    public function __construct($data)
+    {
+        $this->data = $data;
     }
 
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
-    public function build() {
-        return $this
-            ->subject('Contactformulier inzending Best Trans B.V.')
-            ->to(config('mail.to'))
-            ->from(config('mail.from.address'), config('mail.from.name'))
-            ->view('email.contact', $this->details);
+    public function build()
+    {
+        $address = config('mail.from.address');
+        $subject = 'Contactformulier website Best Uitzend B.V. inzending';
+        $name = config('mail.from.name');
+
+        return $this->view('email.contact')
+            ->from($address, $name)
+            ->subject($subject)
+            ->with(['details' => $this->data]);
     }
 }

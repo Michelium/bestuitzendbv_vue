@@ -85,7 +85,6 @@ export default {
                     this.loaded = true;
                     this.success = true;
                 }).catch(error => {
-                    console.log(error.response.data['message'])
                     this.loaded = true;
                     if (error.response.status === 422) {
                         this.errors = error.response.data.errors || {};
