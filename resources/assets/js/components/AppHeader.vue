@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row px-3 pt-3 pt-lg-0">
                 <div class="col-8">
-                    <router-link :to="{ name: 'home' }"><a class="navbar-brand"><img :src="'images/logo.jpg'" alt="LOGO"></a></router-link>
+                    <router-link :to="{ name: 'home' }"><a class="navbar-brand"><h3>Best Uitzend B.V.</h3></a></router-link>
                 </div>
                 <div class="col-4">
                     <button class="navbar-toggler collapsed float-right mt-2" type="button" data-toggle="collapse" data-target="#custom-nav" aria-controls="custom-nav"
@@ -35,6 +35,10 @@ nav .navbar-brand img {
     left: 0;
     right: 0;
     z-index: 3;
+}
+
+.custom-navbar-light h3 {
+    color: #B43C39;
 }
 
 @media (max-width: 991.98px) {
@@ -170,8 +174,7 @@ nav .navbar-brand img {
     background: #38d39f !important;
 }
 
-.custom-navbar-light .navbar-nav > .nav-item.active > a {
-    color: rgba(255, 255, 255, 0.5);
+.custom-navbar-light .navbar-nav .nav-item .nav-link.active {
     color: #B43C39;
 }
 
@@ -190,99 +193,5 @@ nav .navbar-brand img {
     text-decoration: none;
     color: #B43C39;
     outline: none !important;
-}
-
-.custom-navbar-light.scrolled {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    margin-top: -130px;
-    background: #fff !important;
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 991.98px) {
-    .custom-navbar-light.scrolled .nav-item > .nav-link {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        padding-bottom: 0 !important;
-    }
-}
-
-.custom-navbar-light.scrolled .nav-item.active > a {
-    color: #B43C39 !important;
-}
-
-.custom-navbar-light.scrolled .nav-item.cta > a {
-    color: black !important;
-    background: #B43C39;
-    border: none !important;
-    padding-top: 0.5rem !important;
-    padding-bottom: .5rem !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    margin-top: 6px !important;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-}
-
-.custom-navbar-light.scrolled .nav-item.cta > a span {
-    display: inline-block;
-    color: black !important;
-}
-
-.custom-navbar-light.scrolled .nav-item.cta.cta-colored span {
-    border-color: #B43C39;
-}
-
-@media (max-width: 991.98px) {
-    .custom-navbar-light.scrolled .navbar-nav {
-        background: none;
-        border-radius: 0px;
-        padding-left: 0rem !important;
-        padding-right: 0rem !important;
-    }
-}
-
-.custom-navbar-light.scrolled .navbar-toggler {
-    border: none;
-    color: rgba(0, 0, 0, 0.5) !important;
-    border-color: rgba(0, 0, 0, 0.5) !important;
-    cursor: pointer;
-    padding-right: 0;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: .1em;
-}
-
-.custom-navbar-light.scrolled .nav-link {
-    padding-top: 0.9rem !important;
-    padding-bottom: 0.9rem !important;
-    color: #000 !important;
-}
-
-.custom-navbar-light.scrolled .nav-link.active {
-    color: #B43C39 !important;
-}
-
-.custom-navbar-light.scrolled.awake {
-    margin-top: 0px;
-    -webkit-transition: .3s all ease-out;
-    -o-transition: .3s all ease-out;
-    transition: .3s all ease-out;
-}
-
-.custom-navbar-light.scrolled.sleep {
-    -webkit-transition: .3s all ease-out;
-    -o-transition: .3s all ease-out;
-    transition: .3s all ease-out;
-}
-
-.custom-navbar-light.scrolled .navbar-brand {
-    color: #000;
 }
 </style>

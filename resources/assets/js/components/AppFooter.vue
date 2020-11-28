@@ -13,7 +13,7 @@
                 <div class="col-6 col-md-4">
                     <h6>Contactgegevens</h6>
                     <p>
-                        <a href="mailto:besttrans2018@gmail.com">besttrans2018@gmail.com</a> <br>
+                        <a href="mailto:bestuitzendbv@gmail.com">bestuitzendbv@gmail.com</a> <br>
                         06 85052234 <br>
                         06 45362595 <br>
                     </p>

@@ -16,7 +16,8 @@
                         </div>
                         <div class="col-12 col-md-6">
                             <h6>CONTACT:</h6>
-                            <p><i class="fa fa-envelope"></i> <a href="mailto:besttrans2018@gmail.com">besttrans2018@gmail.com</a> <br> <i class="fa fa-phone"></i> 06 85052234<br> <i class="fa fa-phone"></i> 06 45362595</p>
+                            <p><i class="fa fa-envelope"></i> <a href="mailto:bestuitzendbv@gmail.com">bestuitzendbv@gmail.com</a> <br> <i class="fa fa-phone"></i> 06 85052234<br>
+                                <i class="fa fa-phone"></i> 06 45362595</p>
                         </div>
                     </div>
                 </div>
@@ -26,16 +27,8 @@
         <div class="row mx-0 mb-5" id="second">
             <div class="col-12 col-lg-4 ml-auto">
                 <h3>Contacteer ons</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa dolor esse iure nulla perspiciatis voluptatibus! Eius enim maiores molestiae
-                    sapiente tempore. At corporis, deleniti dolorum in iste libero nemo provident quasi qui quis quo repellendus sunt suscipit tempora ut. Aut commodi dicta
-                    dignissimos ea exercitationem nulla placeat qui voluptatibus!</p>
-                <ul>
-                    <li>Lorem ipsum.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, voluptatum.</li>
-                </ul>
-                <a href="">Lorem ipsum</a>
+                <p>Wilt u ons contacteren? Aarzel dan niet en vul het contact formulier hier onderin en we nemen z.s.m. contact met u op. U kunt ook bellen naar de vermelde
+                    telefoon nummers als u een snellere reactie wilt!</p>
             </div>
             <div class="col-12 col-lg-4 mr-auto mt-3 mt-lg-0 mb-5">
                 <ContactForm/>
@@ -45,14 +38,14 @@
 </template>
 
 <script>
-    import ContactForm from './ContactForm'
+import ContactForm from './ContactForm'
 
-    export default {
-        name: 'Contact',
-        components: {
-            ContactForm,
-        }
+export default {
+    name: 'Contact',
+    components: {
+        ContactForm,
     }
+}
 </script>
 
 <style scoped>

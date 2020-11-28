@@ -3,8 +3,6 @@
         <header class="home-head-image mb-5">
             <div class="title">
                 <h1>Best Uitzend B.V.</h1>
-                <h2 class="card-subtitle mb-2">Lorem ipsum dolor.</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error facilis hic nostrum sapiente, vitae?</p>
             </div>
         </header>
 
