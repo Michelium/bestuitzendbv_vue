@@ -31,12 +31,7 @@
             <nav class="nav justify-content-center">
                 <span class="navbar-text">&#169; 2020 Best Uitzend BV &nbsp;&nbsp;| </span>
                 <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link"><span>Algemene voorwaarden</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"><span>Privacyverklaring</span></a>
-                    </li>
+                    <li class="nav-item"><router-link :to="{ name: 'privacystatement' }" class="nav-link">Privacyverklaring</router-link></a></li>
                 </ul>
             </nav>
         </div>

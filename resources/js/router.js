@@ -5,6 +5,7 @@ Vue.use(VueRouter);
 import Home from '../assets/js/pages/Home';
 import About from '../assets/js/pages/About';
 import Contact from '../assets/js/pages/contact/index';
+import Privacystatement from '../assets/js/pages/Privacystatement';
 
 const routes = [
     {
@@ -21,6 +22,11 @@ const routes = [
         path: '/contact',
         name: 'contact',
         component: Contact,
+    },
+    {
+        path: '/privacyverklaring',
+        name: 'privacystatement',
+        component: Privacystatement,
     },
 ];
 

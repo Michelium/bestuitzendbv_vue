@@ -1931,6 +1931,143 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/pages/Privacystatement.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/pages/Privacystatement.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'Privacystatement',
+  mounted: function mounted() {
+    window.scrollTo(0, 0);
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/pages/contact/ContactForm.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/pages/contact/ContactForm.vue?vue&type=script&lang=js& ***!
@@ -21403,86 +21540,84 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("footer", { staticClass: "footer" }, [
+    _c("div", { staticClass: "container-fluid pt-4" }, [
+      _c("h3", { staticClass: "text-white text-center pb-3" }, [
+        _vm._v("Best Uitzend BV")
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("hr", { staticClass: "mb-0" }),
+      _vm._v(" "),
+      _c("nav", { staticClass: "nav justify-content-center" }, [
+        _c("span", { staticClass: "navbar-text" }, [
+          _vm._v("© 2020 Best Uitzend BV   | ")
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "nav" }, [
+          _c(
+            "li",
+            { staticClass: "nav-item" },
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "nav-link",
+                  attrs: { to: { name: "privacystatement" } }
+                },
+                [_vm._v("Privacyverklaring")]
+              )
+            ],
+            1
+          )
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("footer", { staticClass: "footer" }, [
-      _c("div", { staticClass: "container-fluid pt-4" }, [
-        _c("h3", { staticClass: "text-white text-center pb-3" }, [
-          _vm._v("Best Uitzend BV")
-        ]),
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6 col-md-4" }, [
+        _c("h6", [_vm._v("Adresgegevens")]),
         _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-6 col-md-4" }, [
-            _c("h6", [_vm._v("Adresgegevens")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v("\n                    Duke Ellingtonstraat 25 "),
-              _c("br"),
-              _vm._v("\n                    2551 WB Den Haag "),
-              _c("br")
-            ])
+        _c("p", [
+          _vm._v("\n                    Duke Ellingtonstraat 25 "),
+          _c("br"),
+          _vm._v("\n                    2551 WB Den Haag "),
+          _c("br")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-6 col-md-4" }, [
+        _c("h6", [_vm._v("Contactgegevens")]),
+        _vm._v(" "),
+        _c("p", [
+          _c("a", { attrs: { href: "mailto:bestuitzendbv@gmail.com" } }, [
+            _vm._v("bestuitzendbv@gmail.com")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-6 col-md-4" }, [
-            _c("h6", [_vm._v("Contactgegevens")]),
-            _vm._v(" "),
-            _c("p", [
-              _c("a", { attrs: { href: "mailto:bestuitzendbv@gmail.com" } }, [
-                _vm._v("bestuitzendbv@gmail.com")
-              ]),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v("\n                    06 85052234 "),
-              _c("br"),
-              _vm._v("\n                    06 45362595 "),
-              _c("br")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-12 col-md-4" }, [
-            _c("h6", [_vm._v("Volg ons")]),
-            _vm._v(" "),
-            _c("div", { attrs: { id: "social-icons" } }, [
-              _c("a", {
-                staticClass: "fab fa-facebook-f",
-                attrs: { href: "#" }
-              }),
-              _vm._v(" "),
-              _c("a", {
-                staticClass: "fab fa-instagram",
-                attrs: { href: "#" }
-              }),
-              _vm._v(" "),
-              _c("a", { staticClass: "fab fa-twitter", attrs: { href: "#" } })
-            ])
-          ])
-        ]),
+          _c("br"),
+          _vm._v("\n                    06 85052234 "),
+          _c("br"),
+          _vm._v("\n                    06 45362595 "),
+          _c("br")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-md-4" }, [
+        _c("h6", [_vm._v("Volg ons")]),
         _vm._v(" "),
-        _c("hr", { staticClass: "mb-0" }),
-        _vm._v(" "),
-        _c("nav", { staticClass: "nav justify-content-center" }, [
-          _c("span", { staticClass: "navbar-text" }, [
-            _vm._v("© 2020 Best Uitzend BV   | ")
-          ]),
+        _c("div", { attrs: { id: "social-icons" } }, [
+          _c("a", { staticClass: "fab fa-facebook-f", attrs: { href: "#" } }),
           _vm._v(" "),
-          _c("ul", { staticClass: "nav" }, [
-            _c("li", { staticClass: "nav-item" }, [
-              _c("a", { staticClass: "nav-link" }, [
-                _c("span", [_vm._v("Algemene voorwaarden")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "nav-item" }, [
-              _c("a", { staticClass: "nav-link" }, [
-                _c("span", [_vm._v("Privacyverklaring")])
-              ])
-            ])
-          ])
+          _c("a", { staticClass: "fab fa-instagram", attrs: { href: "#" } }),
+          _vm._v(" "),
+          _c("a", { staticClass: "fab fa-twitter", attrs: { href: "#" } })
         ])
       ])
     ])
@@ -21926,6 +22061,203 @@ var staticRenderFns = [
         _vm._v(
           "Onze vestiging zit in Den Haag, maar wij hebben werk voor in heel Nederland. Heb jij dringend een goed betaalde baan nodig en ben je daar bereid voor te werken?\n                Aarzel dan niet om een mail te sturen of te bellen."
         )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/pages/Privacystatement.vue?vue&type=template&id=27b894b8&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/pages/Privacystatement.vue?vue&type=template&id=27b894b8& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", [
+      _c("div", { staticClass: "row mx-0 mb-5" }, [
+        _c("div", { staticClass: "col-12 col-md-8 mx-auto" }, [
+          _c("h1", [_vm._v("Privacyverklaring")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Persoonsgegevens die wij verwerken")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "De organisatie verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat u deze zelf aan ons verstrekt. Hieronder vindt u een overzicht\n                van\n                de persoonsgegevens die wij verwerken:"
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", [
+            _c("li", [_vm._v("Voor- en achternaam")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Geslacht")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Geboortedatum")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Geboorteplaats")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Adresgegevens")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Telefoonnummer")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("E-mailadres")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("IP-adres")]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Overige persoonsgegevens die u actief verstrekt bijvoorbeeld door een profiel op deze website aan te maken, in correspondentie en telefonisch"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Locatiegegevens")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Gegevens over uw activiteiten op onze website")]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Gegevens over uw surfgedrag over verschillende websites heen (bijvoorbeeld omdat dit bedrijf onderdeel is van een advertentienetwerk)"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v("Lijst met contactgegevens van de klant via een app")
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Internetbrowser en apparaat type")]),
+            _vm._v(" "),
+            _c("li")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Bijzondere en/of gevoelige persoonsgegevens die wij verwerken"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van\n                ouders of\n                voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun\n                kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van overtuigd bent dat wij zonder die\n                toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via het contactformulier dan verwijderen wij deze\n                informatie."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "De organisatie verwerkt uw persoonsgegevens voor de volgende doelen:"
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", [
+            _c("li", [_vm._v("Het afhandelen van uw betaling")]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v("Verzenden van onze nieuwsbrief en/of reclamefolder")
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "U te informeren over wijzigingen van onze diensten en producten"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Om goederen en diensten bij u af te leveren")]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "De organisatie analyseert uw gedrag op de website om daarmee de website te verbeteren en het aanbod van producten en diensten af te stemmen op uw\n                    voorkeuren.\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "De organisatie verwerkt ook persoonsgegevens als wij hier wettelijk toe verplicht zijn, zoals gegevens die wij nodig hebben voor onze belastingaangifte."
+              ),
+              _c("br"),
+              _vm._v(
+                "\n                    Geautomatiseerde besluitvorming\n                "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "De organisatie neemt niet op basis van geautomatiseerde verwerkingen besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier\n                om\n                besluiten die worden genomen door computerprogramma’s of -systemen, zonder dat daar een mens (bijvoorbeeld een medewerker van De organisatie) tussen zit.\n                De\n                organisatie gebruikt de volgende computerprogramma’s of -systemen: [aanvullen met naam van het systeem, waarom het gebruikt wordt, onderliggende logica,\n                belang en verwachte gevolgen voor betrokkene]"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Hoe lang we persoonsgegevens bewaren")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "De organisatie bewaart uw persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor uw gegevens worden verzameld, met een maximum van\n                6\n                maanden."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Delen van persoonsgegevens met derden")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "De organisatie verkoopt uw gegevens niet aan derden en verstrekt deze uitsluitend indien dit nodig is voor de uitvoering van onze overeenkomst met u of om te\n                voldoen\n                aan een wettelijke verplichting. Met bedrijven die uw gegevens verwerken in onze opdracht, sluiten wij een bewerkersovereenkomst om te zorgen voor eenzelfde\n                niveau\n                van beveiliging en vertrouwelijkheid van uw gegevens. De organisatie blijft verantwoordelijk voor deze verwerkingen."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Cookies, of vergelijkbare technieken, die wij gebruiken")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "De organisatie gebruikt alleen technische en functionele cookies. En analytische cookies die geen inbreuk maken op uw privacy. Een cookie is een klein\n                tekstbestand\n                dat bij het eerste bezoek aan deze website wordt opgeslagen op uw computer, tablet of smartphone. De cookies die wij gebruiken zijn noodzakelijk voor de\n                technische\n                werking van de website en uw gebruiksgemak. Ze zorgen ervoor dat de website naar behoren werkt en onthouden bijvoorbeeld uw voorkeursinstellingen. Ook kunnen\n                wij\n                hiermee onze website optimaliseren. U kunt zich afmelden voor cookies door uw internetbrowser zo in te stellen dat deze geen cookies meer opslaat. Daarnaast\n                kunt u\n                ook alle informatie die eerder is opgeslagen via de instellingen van uw browser verwijderen."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Gegevens inzien, aanpassen of verwijderen")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de\n                gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door De organisatie en heeft u het recht op\n                gegevensoverdraagbaarheid. Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of\n                een\n                ander, door u genoemde organisatie, te sturen. U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van uw persoonsgegevens of verzoek\n                tot\n                intrekking van uw toestemming of bezwaar op de verwerking van uw persoonsgegevens sturen naar de organisatie via het contactformulier. Om er zeker van te zijn\n                dat\n                het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ\n                (machine\n                readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. We reageren\n                zo\n                snel mogelijk, maar binnen vier weken, op uw verzoek. De organisatie wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de\n                nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link:\n                https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Hoe wij persoonsgegevens beveiligen")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "De organisatie neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en\n                ongeoorloofde wijziging tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op\n                met\n                onze klantenservice."
+            )
+          ])
+        ])
       ])
     ])
   }
@@ -37932,6 +38264,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/js/pages/Privacystatement.vue":
+/*!********************************************************!*\
+  !*** ./resources/assets/js/pages/Privacystatement.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Privacystatement_vue_vue_type_template_id_27b894b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Privacystatement.vue?vue&type=template&id=27b894b8& */ "./resources/assets/js/pages/Privacystatement.vue?vue&type=template&id=27b894b8&");
+/* harmony import */ var _Privacystatement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Privacystatement.vue?vue&type=script&lang=js& */ "./resources/assets/js/pages/Privacystatement.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Privacystatement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Privacystatement_vue_vue_type_template_id_27b894b8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Privacystatement_vue_vue_type_template_id_27b894b8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/assets/js/pages/Privacystatement.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/pages/Privacystatement.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/assets/js/pages/Privacystatement.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Privacystatement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Privacystatement.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/pages/Privacystatement.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Privacystatement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/assets/js/pages/Privacystatement.vue?vue&type=template&id=27b894b8&":
+/*!***************************************************************************************!*\
+  !*** ./resources/assets/js/pages/Privacystatement.vue?vue&type=template&id=27b894b8& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Privacystatement_vue_vue_type_template_id_27b894b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Privacystatement.vue?vue&type=template&id=27b894b8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/pages/Privacystatement.vue?vue&type=template&id=27b894b8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Privacystatement_vue_vue_type_template_id_27b894b8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Privacystatement_vue_vue_type_template_id_27b894b8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/assets/js/pages/contact/ContactForm.vue":
 /*!***********************************************************!*\
   !*** ./resources/assets/js/pages/contact/ContactForm.vue ***!
@@ -38149,9 +38550,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_js_pages_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/js/pages/Home */ "./resources/assets/js/pages/Home.vue");
 /* harmony import */ var _assets_js_pages_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/js/pages/About */ "./resources/assets/js/pages/About.vue");
 /* harmony import */ var _assets_js_pages_contact_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/js/pages/contact/index */ "./resources/assets/js/pages/contact/index.vue");
+/* harmony import */ var _assets_js_pages_Privacystatement__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/js/pages/Privacystatement */ "./resources/assets/js/pages/Privacystatement.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
 
 
 
@@ -38167,6 +38570,10 @@ var routes = [{
   path: '/contact',
   name: 'contact',
   component: _assets_js_pages_contact_index__WEBPACK_IMPORTED_MODULE_4__["default"]
+}, {
+  path: '/privacyverklaring',
+  name: 'privacystatement',
+  component: _assets_js_pages_Privacystatement__WEBPACK_IMPORTED_MODULE_5__["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: routes,
